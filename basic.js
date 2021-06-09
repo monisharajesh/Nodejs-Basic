@@ -1,15 +1,17 @@
 console.log('I am Monisha Rajesh');
-/*const basic = function check(){
+
+function check(){
     console.log('Now I am working');
 
-}*/
+}
 
-/*const basic = function signin() {
-console.log('Enter the User name')
-console.log('Enter the password')
-}*/
-var basic = function view() {
+function signin() {
+console.log('Enter the User name:')
+console.log('Enter the password:')
+}
+function view() {
     console.log('Function calling is done')
 }
 
-module.exports = basic
+
+module.exports = {check,signin,view};
